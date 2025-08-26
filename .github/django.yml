@@ -36,6 +36,6 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/django-cicd-docker:latest
+        tags: devanshi2123/django-cicd-docker:latest
         context: .
         file: ./Dockerfile
